@@ -1,16 +1,57 @@
-# React + Vite
+![Screenshot of View](assets/preview.png)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🌍 Travel Journal
 
-Currently, two official plugins are available:
+A personal travel blogging application built with **React**. Document your adventures, save memories, and share your journey with the world.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **View Entries:** See a list of all your recorded travel entries.
+* **Add New Entry:** Easily create a new journal entry with details like location, date, title, description, and photos.
+* **Interactive Map (Optional):** Visualize entry locations on a map interface (e.g., using Leaflet or Google Maps API).
+* **Photo Gallery:** Display associated images for each travel entry.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+* **Frontend:** React (for the user interface)
+* **Styling:** CSS Modules / Styled Components / Tailwind CSS (Choose the relevant one)
+* **Routing:** React Router DOM
+* **State Management:** React Hooks (e.g., `useState`, `useEffect`) / Redux (If used)
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+You need **Node.js** and **npm** (or yarn) installed on your system.
+
+### Installation
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [YOUR_REPO_URL]
+    cd travel-journal
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    # or
+    # yarn install
+    ```
+
+### Running the App
+
+1.  **Start the development server:**
+    ```bash
+    npm start
+    # or
+    # yarn start
+    ```
+2.  Open your browser to **`http://localhost:3000`** to view the application.
+
