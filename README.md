@@ -55,3 +55,6 @@ You need **Node.js** and **npm** (or yarn) installed on your system.
     ```
 2.  Open your browser to **`http://localhost:3000`** to view the application.
 
+### Contributions
+
+Thank you to Scrimba Community for the project assests and guidance!
